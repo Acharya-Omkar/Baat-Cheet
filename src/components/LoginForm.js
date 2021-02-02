@@ -35,7 +35,8 @@ const Modal = () => {
   return (
     <div className="wrapper">
       <div className="form">
-        <h1 className="title">Chalo Baat Cheet Kare ?</h1>
+        <h1 className="title">Welcome to Baat Cheet!</h1>
+        <p className="sub-title" >This is an invite based chat platform.</p>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -55,7 +56,7 @@ const Modal = () => {
           />
           <div align="center">
             <button type="submit" className="button">
-              <span>Start chatting</span>
+              <span>Hop In</span>
             </button>
           </div>
         </form>

@@ -80,13 +80,19 @@
 }
 
 .chat-title-container {
+  display: flex;
+  flex-direction: column;
   width: calc(100% - 36px);
   padding: 18px;
   text-align: center;
+  background-color: #f8c0ce73;
+  width: 100%;
+  margin-bottom: 2rem;
+
 }
 
 .chat-title {
-  color: #05aac7;
+  color: #5c056da2;
   font-weight: 800;
   font-size: 24px;
 }
@@ -221,7 +227,7 @@
 .wrapper {
   height: 100vh;
   width: 100%;
-  background: rgb(117, 84, 160);
+  /* background: rgb(117, 84, 160);
   background: linear-gradient(
     90deg,
     rgba(117, 84, 160, 1) 7%,
@@ -233,27 +239,29 @@
     rgba(44, 163, 219, 1) 96%,
     rgba(22, 188, 237, 1) 100%,
     rgba(0, 212, 255, 1) 100%
-  );
+  ); */
+  background-image: url("https://64.media.tumblr.com/adb90907b7715d55cc186ab17a5b7be4/tumblr_oiwyturZ9q1tf8vylo1_1280.png");
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .input {
-  color: #333;
-  font-size: 1.2rem;
+  color: rgb(13, 114, 128);
+  font-size: 1rem;
   margin: 0 auto;
-  padding: 1.5rem 2rem;
-  border-radius: 0.2rem;
-  background-color: rgb(255, 255, 255);
-  border: none;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  background-color: rgb(241, 241, 241);
+  border: 0.2px solid rgb(73, 3, 80);
   width: 90%;
-  display: block;
-  border-bottom: 0.3rem solid transparent;
+  display: flex;
+ 
   transition: all 0.3s;
   outline: none;
   margin-bottom: 25px;
 }
+
 
 .form {
   width: 400px;
@@ -261,26 +269,34 @@
 
 .title {
   text-align: center;
-  color: white;
+  color: rgb(73, 72, 72);
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;
+  font-size: 1.5em;
+}
+
+.sub-title {
+  color: #232324;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .button {
-  border-radius: 4px;
-  border: none;
-  background-color: white;
-  color: black;
+  border-radius: 24px;
+  border: 1px solid rgb(73, 3, 80);
+  background-color: rgb(73, 3, 80);
+  color: white ;
   text-align: center;
   text-transform: uppercase;
-  font-size: 22px;
-  padding: 20px;
-  width: 200px;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 15px;
+  width: 150px;
   transition: all 0.4s;
   cursor: pointer;
   margin: 5px;
-  width: 90%;
 }
 .button span {
   cursor: pointer;
