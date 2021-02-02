@@ -12,7 +12,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BAAT_CHEET_APP }}'
-          projectId: baat-cheet-app
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BAAT_CHEET_APP_D8CA8 }}'
+          projectId: baat-cheet-app-d8ca8
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
